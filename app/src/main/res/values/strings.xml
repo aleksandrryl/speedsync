@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SpeedSync Overlay</string>
+    <string name="subtitle">Виджет в углу экрана появляется только при скорости 90 км/ч и выше. Приложение работает в фоне и ничему не мешает.</string>
+    <string name="status_fmt">Геолокация: %1$s\nПоверх других приложений: %2$s\nУведомления: %3$s</string>
+
+    <string name="btn_location">1. Разрешить геолокацию</string>
+    <string name="btn_overlay">2. Разрешить поверх приложений</string>
+    <string name="btn_notifications">3. Разрешить уведомления</string>
+    <string name="btn_start">Включить мониторинг</string>
+    <string name="btn_stop">Выключить мониторинг</string>
+    <string name="btn_battery">Отключить оптимизацию батареи</string>
+
+    <string name="hint">После включения сверните приложение. В шторке появится постоянное уведомление — значит мониторинг идёт. При 90 км/ч и выше в правом верхнем углу всплывёт виджет с обратным отсчётом 2:00; скорость упадёт ниже 90 — виджет исчезнет и счётчик сбросится.</string>
+
+    <string name="need_location">Сначала разрешите геолокацию</string>
+    <string name="need_overlay">Разрешите «Поверх других приложений»</string>
+    <string name="location_already">Геолокация уже разрешена</string>
+    <string name="overlay_already">Разрешение уже выдано</string>
+    <string name="notif_not_needed">На этой версии Android отдельное разрешение не нужно</string>
+    <string name="battery_unavailable">Настройки батареи недоступны на этом устройстве</string>
+    <string name="started">Мониторинг включён</string>
+    <string name="stopped">Мониторинг выключен</string>
+
+    <string name="channel_name">Мониторинг скорости</string>
+    <string name="channel_desc">Фоновое отслеживание скорости для виджета 90 км/ч</string>
+    <string name="notif_title">SpeedSync следит за скоростью</string>
+    <string name="notif_text">Виджет появится при 90 км/ч и выше</string>
+    <string name="notif_stop">Стоп</string>
+</resources>
